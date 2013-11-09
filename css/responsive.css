@@ -1,0 +1,124 @@
+
+@media screen and (min-width: 720px) {
+	body
+	{
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	nav
+	{
+		max-width: 1024px;
+	}
+	aside
+	{
+		display: inline-block;
+		width: 30%;
+		margin: 3em 0.5em;
+		background: #FFFFFF;
+		border-radius: 11px;
+	}
+	aside #informacion_twets
+	{
+		border: solid transparent;
+		width: 100%;
+		text-align: center;
+	}
+	aside #informacion_twets div
+	{
+		width: 29%;
+		display: inline-block;
+		padding: 0;
+	}
+	aside #informacion_twets a:hover
+	{
+		color: #fff;
+	}
+	aside #informacion_twets a
+	{
+		text-decoration: none; 
+	}
+	
+	aside #informacion_twets div a p
+	{
+		font-size: 0.6em;
+		text-align: center;
+		margin: 0;
+		color: #000;
+	}
+	aside #informacion_twets div a p:first-child
+	{
+		font-weight: bold;
+		font-size: 0.9em;	
+		margin-top: 0.5em;
+	}
+	aside, #twitter
+	{
+		display: inline-block;
+		vertical-align: top;
+	}
+	aside #primer_cuadro
+	{
+		background: #fff;
+		margin: 0;
+		border-radius: 10px;
+	}
+
+	aside #primer_cuadro #informacion_perfil
+	{
+		padding-bottom: 0.5em;
+		border-bottom: 1px solid #BBB;
+	}
+	aside #primer_cuadro #informacion_perfil a
+	{
+		font-size: 0.9em;
+		font-weight: bold;
+		color: #000;
+		text-decoration: none;
+	}
+	aside #primer_cuadro #informacion_perfil p
+	{
+		font-size: 0.5em;
+		margin: 0;
+	}
+	aside #primer_cuadro #informacion_perfil a:hover
+	{
+		color: #3A8CC7;
+		text-decoration: underline;
+	}
+	aside #primer_cuadro #publicar_tweet
+	{
+		border-top: 1px solid #DDD;
+		margin-top: 0.5em;
+		text-align: center;
+		padding: 0.2em;
+	}
+	aside #primer_cuadro #publicar_tweet input
+	{
+		width: 90%;
+		min-height: 20px;
+		border: 1px solid #DDD;
+		color: #DDD;
+		padding: 0.2em;
+		border-radius: 5px;
+	}
+	aside #primer_cuadro #informacion_perfil figure
+	{
+		width: 30px;
+		margin: 0.3em;
+		float:left;
+	}
+	aside #primer_cuadro #informacion_perfil figure img
+	{
+		width: 100%;
+		border-radius: 5px;
+	}
+	#twitter
+	{
+		width: 60%;
+	}
+	body
+	{
+		border:solid red;
+	}
+
+}
